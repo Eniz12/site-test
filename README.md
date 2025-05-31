@@ -1,2 +1,2 @@
-# site-test
-im an amateur programmer
+my amateur sites
+just use fot developent and good cause
