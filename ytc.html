@@ -1,0 +1,30 @@
+<head><title>You Can Talk</title></head>
+<body style="background-color: powderblue;">
+    <button>Log in</button>
+    <button>Sign up</button>
+    <h3 style="font-size: 190%; color: tomato">You Can Talk</h3>
+    <p>Welcome to You Can Talk. Sometimes you can feel sad,bad or anything but you can talk here. my therapist game is coming soon. you can see only your problems here. you can talk with ai</p>
+    <form id="therapist">
+   <label for="fname">enter your problem:</label><br>
+   <input type="text" value="i have daddy issues" id="fname"><br>
+   <input type="time">
+    <button type="button" onclick="t">send</button>
+    </form>
+    <p id="problem"></p>
+   <h5>Note: the tim problems written here are completely encrypted!!!</h5>
+   <p>what would you can this your life:</p>
+   <ul>
+  <li><button><a href="https://www.youtube.com/watch?v=r4ZdyS6v3qA&t=10s">how to be happy</a></button></li>
+<li><Button><a href="https://www.npr.org/transcripts/1155069983">an article prepared to find a partner</a></Button></li>   
+<li><button><a href="https://sageandbloom.co/how-to-get-your-life-in-order/">how to organise your life</a></button></li>
+</ul>
+   <h6>this_site_made_by_Alex</h6>
+</body>
+
+<script>
+   function therapist() {
+      const fname = document.getElementById('fname').value;
+    document.getElementById('problem').textContent = `saved, ${fname}`;
+    document.getElementById('therapist').reset
+   }
+</script>
